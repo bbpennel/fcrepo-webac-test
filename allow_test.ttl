@@ -1,0 +1,6 @@
+@prefix acl: <http://www.w3.org/ns/auth/acl#>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+
+<> acl:accessControl </fcrepo/rest/test_root/acl1>;
+   dc:title "Allow test user".
+

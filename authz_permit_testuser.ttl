@@ -1,0 +1,6 @@
+@prefix acl: <http://www.w3.org/ns/auth/acl#> .
+<> a acl:Authorization ;
+   acl:agent "testuser" ;
+   acl:mode acl:Read ;
+   acl:accessTo <http://localhost:8080/fcrepo/rest/test_root/allow_test_indir>;
+   acl:accessTo <http://localhost:8080/fcrepo/rest/test_root/allow_test_basic> .
